@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <title>Live-Tracking</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link href="/static/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
      crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
@@ -20,18 +20,19 @@
       </head>
       <body>
             <!--<table class="table-responsive">
-                <tr><th><h1 class="display-5" id="title">ID: 420-9,2,11 <emsp&emsp;></h1></th><th> <img src="assets/images/clip.png" width="80" height="80" alt="logo"></th>
+                <tr><th><h1 class="display-5" id="title">ID: 420-9,2,11 <emsp&emsp;></h1></th><th> <img src="static/images/clip.png" width="80" height="80" alt="logo"></th>
                 <th> <h1 class="display-5" id="title">GeoTracker</h1></th><th><input type="submit" class="btn btn-outline-light" name="submit" value="Logout" /></th></tr>
             </table>-->
+			<form action="/logout" method="GET">
                 <div class="card-group">
               <div class="card bg-dark">
                 <div class="card-body">
-                  <h1 class="display-7" id="title">ID: 420-9,2,11</emsp></h1>
+                  <h1 class="display-6" id="title">ID: {{ username }}</emsp></h1>
                 </div>
               </div>
               <div class="card bg-dark">
                 <div class="card-body">
-                 <img src="assets/images/clipEDIT2.png" width="210" height="80" alt="logo">
+                 <img src="static/images/clipEDIT2.png" width="180" height="80" alt="logo">
                 </div>
               </div>
               <div class="card bg-dark">
@@ -40,17 +41,17 @@
                 </div>
               </div>
             </div>
-            <iframe src=https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3742.829521227608!2d85.79599506491998!3d20.265903836416538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d20.247933!2d85.800746!4m3!3m2!1d20.347932!2d85.800746!5e0!3m2!1sen!2sin!4v1581178654793!5m2!1sen!2sin width="100%" height="625" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</form>
+			{{ frames }}
+			
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7038.050645639054!2d85.801145!3d20.249329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c31b0466c6cf42b!2sITER%20-%20Institute%20of%20Technical%20Education%20%26%20Research!5e1!3m2!1sen!2sin!4v1581088544367!5m2!1sen!2sin" width="1519" height="617" frameborder="0" style="border:0;" allowfullscreen="yes"></iframe> -->
                    
       <!--scripts-->
-      <script src="./assets/js/bootstrap.min.js"></script>
-<script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
+      <script src="./static/js/bootstrap.min.js"></script>
+<script src="/static/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
 
-
-<script type="text/javascript" src="particles.js"></script>
-<script type="text/javascript" src="app.js"></script>
 
 
 </body></html>
