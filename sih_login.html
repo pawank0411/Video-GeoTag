@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://pfol.herokuapp.com/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./portfolio_files/filter-domains"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="icon" href="assets/images/clip.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+     crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+     <style>
+      @import url('https://fonts.googleapis.com/css?family=Unlock&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+      </style>
+      <style>
+        .bg {
+          /* The image used */
+          background-image: url("bg.jpg");
+          background-size: cover;
+        }
+        </style>
+</head>
+<body background="assets/images/bg.jpg">
+    <br><br>
+    <script type="text/javascript">
+        function ValidateForm(frm)
+        {
+           if(frm.uid.value=="")
+           {
+               alert("User - ID is a mandatory field !!!");
+               frm.uid.focus();
+               return false;
+           } 
+           if(frm.password.value=="")
+           {
+            alert("Password is a mandatory field !!!");
+               frm.password.focus();
+               return false; 
+           }
+           header()
+        }
+        </script>
+    <div class="container">
+        <div class="row no-gutters">
+           <div class="col md-2" >
+			</div>
+			<div class="col md-8" >
+                <div class="content jumbotron bg-transparent" >
+                        <div class="row no-gutters" >
+                       <form action="sih_login.html" method="post" onsubmit="return ValidateForm(this);" target="_top">
+<table class="table-responsive bg-transparent" align="center">
+<tr><th colspan="12"> <center><img src="assets/images/clipEDIT.png" alt="logo" width="180"height="150"></center></th></tr>
+<tr><th colspan="12"><h1 class="display-1"><center>Log-In<br /></center></h1></th></tr>
+<tr><td colspan="12"><br /></td></tr>
+<tr><td colspan="6"><input type="text" name="uid" placeholder="Username" /></td><td colspan="6" align="center"><input type="password" name="password" placeholder="Password" /></td></tr>
+<tr><td colspan="12"><br /></td></tr>
+<tr><td colspan="6" align="center"><input type="submit" class="btn btn-outline-success" name="submit" value="Login" /></td><td colspan="6" align="center"><input type="reset" class="btn btn-outline-light" name="reset" value="Reset" /></td></tr>
+</table>
+</form>
+                     </div>
+                </div>
+        </div>
+		 <div class="col md-2" >
+			</div>
+      </div>
+    </div>
+<!-- Scripts -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+
+
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</body></html>

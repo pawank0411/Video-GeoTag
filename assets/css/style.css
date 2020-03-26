@@ -1,0 +1,63 @@
+.btn{
+  font-family: 'Righteous', cursive;
+  font-size:x-large;
+  width: 180px;
+border-radius: 40px;
+}
+
+}
+  #text{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Unlock', cursive;
+  }
+
+.display-1{
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+input{
+  width: 150 px;
+  border-radius: 40px;
+  font-family: 'Righteous', cursive;
+  border-color:honeydew;
+  border-style: dotted;
+  text-align: center;
+  height: 50px;
+}
+#title{
+  color: white;
+  font-family: 'Righteous', cursive;
+  align-content: left;
+}
+nav{
+  height: 80px;
+  background-color: grey;
+}
+.nav-right {
+  float: right;
+}
+.logout{
+  size: 30px;
+}
+.card-body{
+  height: 100px;
+  text-align: center;
+  border: transparent;
+}
+.card{
+  border: transparent;
+}
+h1{
+  text-align: left;
+}
+h2{
+  text-align: right;
+}
+h3{
+  text-align: center;
+}
+table{
+  text-align: center;
+}
